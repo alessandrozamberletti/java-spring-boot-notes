@@ -1,1 +1,1 @@
-# Java-Spring-Notes
+# Java Spring Study Notes
