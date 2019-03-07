@@ -2,10 +2,10 @@
 
 ## TRANSACTIONS:  
 * How?  
-  * specify @Transactional on methods or classes  
+  * specify ```@Transactional``` on methods or classes  
   * __PIPELINE:__  
-  1. create your @Entity and the @Repository which extends Repository<Entity, Long>  
-  2. define your @Service, create an @Autowired repository and define a @Transactional method  
+  1. create your ```@Entity``` and the ```@Repository``` which ```extends Repository<Entity, Long>```  
+  2. define your ```@Service```, create an ```@Autowired``` repository and define a ```@Transactional``` method  
   3. the method will now be atomic when called from other methods.  
   * __NOTES:__
     * Spring creates the transaction by wrapping it into the "BEGIN TRANSACTION" statements, this is done only if you call the method from external calls! If you call it from within the method itself the @Transactional statement WILL NOT BE satisfied! (res: https://www.baeldung.com/transaction-configuration-with-jpa-and-spring)
