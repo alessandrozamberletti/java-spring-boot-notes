@@ -1,6 +1,4 @@
-# Java Spring Study Notes
-
-## TRANSACTIONS:  
+# TRANSACTIONS:  
 * How?  
   * specify ```@Transactional``` on methods or classes  
   * __PIPELINE:__  
