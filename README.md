@@ -6,3 +6,4 @@
 4. @RequestScope vs @Singleton: __TODO__
 5. Security: __TODO__
 6. @Controller vs @RestController: [link](controller-restcontroller.md)
+7. Testing: __TODO__
