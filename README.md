@@ -5,4 +5,4 @@
 3. JPA/hibernate: __TODO__
 4. @RequestScope vs @Singleton: __TODO__
 5. Security: __TODO__
-6. @Controller vs @RestController
+6. @Controller vs @RestController: [link](controller-restcontroller.md)
