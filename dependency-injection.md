@@ -19,9 +19,9 @@ public class Car {
 ```
 
 * required components are passed into a class at the time of instantiation
-* Spring will initialize the instance of Car class by calling the @Autowired annotated constructor and using the predefined Engine and Transmission beans
-* __NOTE__ classes with a single constructor can omit the @Autowired annotation
-* __NOTE__ constructor-based injection can be leveraged in @Configuration annotated classes and if such class has only one constructor the @Autowired annotation can be omitted as well
+* Spring will initialize the instance of Car class by calling the ```@Autowired``` annotated constructor and using the predefined Engine and Transmission beans
+* __NOTE__ classes with a single constructor can omit the ```@Autowired``` annotation
+* __NOTE__ constructor-based injection can be leveraged in ```@Configuration``` annotated classes and if such class has only one constructor the ```@Autowired``` annotation can be omitted as well
 
 ## Setter-based Dependency Injection
 
@@ -47,7 +47,7 @@ public class ATM {
 }
 ```
 
-* If Printer is a @Bean/@Component, Spring will create an instance of the Printer class and associate the instance with the "printer" member in ATM class
+* If Printer is a ```@Bean```/```@Component```, Spring will create an instance of the Printer class and associate the instance with the "printer" member in ATM class
 * however as the "printer" member in ATM class is private, the ATM class needs to expose its dependency to Spring for it to inject the Printer instance into the ATM class. e.g. If the ATM class exposes its dependency on Printer class as a setter method so that Spring can inject the Printer object then this is called as Setter injection
 * Setter method injection is a very common way to resolve dependencies within the Spring framework
 
