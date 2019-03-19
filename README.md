@@ -1,7 +1,7 @@
 # Java Spring Boot Notes
 
 1. Transactions: [link](transactions.md)
-2. Dependency-injection: __TODO__
+2. Dependency-injection: [link](dependency-injection.md)
 3. JPA/hibernate: [link](jpa-hibernate.md)
 4. @RequestScope vs @Singleton: __TODO__
 5. Security: __TODO__
