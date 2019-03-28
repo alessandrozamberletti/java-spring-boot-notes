@@ -7,5 +7,5 @@
 5. Security: __TODO__
 6. @Controller vs @RestController: [link](controller-restcontroller.md)
 7. @Configuration: [link](configuration.md)
-8. Testing the web layer: __TODO__
+8. Testing the web layer: [link](testing.md)
 9. DB Relationships: [link](relationships.md)
